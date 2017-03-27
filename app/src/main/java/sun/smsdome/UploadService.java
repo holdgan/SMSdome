@@ -110,7 +110,7 @@ public class UploadService extends IntentService {
 
     private void uploadMessage(DomeSms sms, String device_id) {
         String url = "";
-//        String url = "ssdsds";
+//        String url = "";
         Param[] params = new Param[]{
                 new Param("secret", SERVER_SECRETE),
                 new Param("from", sms.getSender()),
